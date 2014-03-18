@@ -7,8 +7,8 @@ Go package to compare the performance of different solutions for the same proble
 ### Install and Run
 
 ```
-go get github.com/hgfischer/go-palindrome
-cd $GOPATH/src/github.com/hgfischer/go-palindrome
+go get github.com/hgfischer/go-palindrome/gopalindrome
+cd $GOPATH/src/github.com/hgfischer/go-palindrome/gopalindrome
 go test -test.bench="."
 ```
 
@@ -20,5 +20,5 @@ Results in a Intel Core-i7 laptop:
 PASS
 BenchmarkPalindromeA	   20000	     79121 ns/op
 BenchmarkPalindromeB	 1000000	      1700 ns/op
-ok  	github.com/hgfischer/gopalindrome	4.118s
+ok  	github.com/hgfischer/go-palindrome/gopalindrome	4.118s
 ```
